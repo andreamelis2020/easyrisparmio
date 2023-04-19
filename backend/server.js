@@ -50,7 +50,7 @@ require("./app/routes/contratto.routes")(app);
 require("./app/routes/partner.routes")(app);
 require("./app/routes/campagna.routes")(app);
 require("./app/routes/tipo_offerta.routes")(app);
-require("./app/routes/tipo_contratto.routes ")(app);
+require("./app/routes/tipo_contratto.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
